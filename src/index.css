@@ -1,0 +1,80 @@
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.product-inquiry-form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  border: 2px solid red;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+button.submit-button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button.submit-button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.thank-you-page {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
+.thank-you-info {
+  text-align: left;
+}
+
+.thank-you-info p {
+  font-size: 16px;
+}
+
+.thank-you-info strong {
+  color: #4CAF50;
+}
